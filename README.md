@@ -11,3 +11,5 @@ console.log("Contains Test: " + 'Does this contain this?'.contains('Does'));
 console.log("Contains Test: " + '2'.contains(2));
 var s = '';
 console.log("EmptyString Test: " + s.emptyString());
+var someWeirdString = "Testing another string";
+console.log(someWeirdString.startWith("Test"));
