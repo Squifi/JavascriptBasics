@@ -13,3 +13,6 @@ var s = '';
 console.log("EmptyString Test: " + s.emptyString());
 var someWeirdString = "Testing another string";
 console.log(someWeirdString.startWith("Test"));
+// returns true;
+console.log(someWeirdString.reverse();
+// returns "gnirts rehtona gnitseT"

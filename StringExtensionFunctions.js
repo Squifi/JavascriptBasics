@@ -1,3 +1,10 @@
+/*
+*    All the functions have been checked with JSLint and modified accordingly
+*    
+*    I have not documented much as the names of the prototype functions should 
+*    speak for themselves.
+*/
+
 String.prototype.startsWith = function (value) {
     "use strict";
     var length = this.substring(0, value.length),
@@ -24,4 +31,14 @@ String.prototype.emptyString = function () {
         b = true;
     }
     return b;
+};
+
+String.prototype.reverse = function () {
+    "use strict";
+    var temp = "",
+        i = 0;
+    for (i; i < this.length; i = i + 1) {
+        temp += this[this.length - 1 - i];
+    }
+    return temp;
 };
